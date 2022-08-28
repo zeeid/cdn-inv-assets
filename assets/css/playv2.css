@@ -1,35 +1,35 @@
     
     .icon_panah_hide{
-      font-size: 20px;
-      margin-top: 60%;
+        font-size: 20px;
+        margin-top: 60%;
     }
     .panah_hide{
-      background-color: #bacfbbc4;
-      position: absolute;
-      top: 12%;
-      right: 353px;
-      left: 0;
-      height: 52px;
-      margin: -4px auto;
-      z-index: 4;
-  }
+        background-color: #bacfbbc4;
+        /* position: absolute;
+        top: 12%;
+        right: 353px;
+        left: 0px; */
+        height: 140%;
+        z-index: 4;
+        width: 22px;
+    }
 
   #app-cover {
       position: absolute;
       top: 12%;
-      right: 0;
+      /* right: 0; */
       left: 22px;
       /* width: 430px; */
       height: 87px;
       margin: -4px auto;
   }
   
-  #player {
-      position: relative;
-      height: 60%;
-      width: 26vh;
-      z-index: 3;
-  }
+    #player {
+        position: relative;
+        height: 60%;
+        width: 185px;
+        z-index: 3;
+    }
   
   #player-track {
       position: absolute;
@@ -276,15 +276,15 @@
       padding: 0px 0;
   }
   
-  .button_play {
-    width: 6px;
-    height: 6px;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-left: 165px;
-  }
+    .button_play {
+        width: 6px;
+        height: 6px;
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 6px;
+        cursor: pointer;
+        margin-left: 155px;
+    }
   
   .button_play i {
       display: block;
