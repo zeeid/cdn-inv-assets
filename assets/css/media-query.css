@@ -1,0 +1,186 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  #box_acara_sampul{
+        font-size: 14px;
+        color: rgb(109, 7, 26);
+        margin-top: 98%;
+        height: 64px;
+        border-radius: 21px;
+        display: block;
+        transform: translate3d(0px, 0px, 0px);
+        opacity: 1;
+        transition-property: transform, opacity;
+        transition-duration: 800ms;
+        transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+
+    }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  #box_acara_sampul{
+        font-size: 14px;
+        color: rgb(109, 7, 26);
+        margin-top: 98%;
+        height: 64px;
+        border-radius: 21px;
+        display: block;
+        transform: translate3d(0px, 0px, 0px);
+        opacity: 1;
+        transition-property: transform, opacity;
+        transition-duration: 800ms;
+        transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    #box_acara_sampul{
+        font-size: 14px;
+        color: rgb(109, 7, 26);
+        margin-top: 98%;
+        height: 64px;
+        border-radius: 21px;
+        display: block;
+        transform: translate3d(0px, 0px, 0px);
+        opacity: 1;
+        transition-property: transform, opacity;
+        transition-duration: 800ms;
+        transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+
+    }
+  
+  
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #player-track.active {
+        top: -50px;
+        height: 85px;
+    }
+    #album-art.active {
+        top: -10px;
+        box-shadow: 0 0 0 4px #fff7f7, 0 30px 50px -15px #afb7c1;
+    }
+    #s-area {
+        background-color: #ffe8ee;
+        cursor: pointer;
+        margin-top: 3px;
+    }
+    
+    #app-cover {
+        position: absolute;
+        top: 9%;
+        right: 0;
+        left: 22px;
+        width: 430px;
+        height: 87px;
+        margin: -4px auto;
+    }
+    
+    .panah_hide {
+        background-color: #bacfbbc4;
+        position: absolute;
+        top: 9%;
+        right: 353px;
+        left: 0;
+        height: 52px;
+        margin: -4px auto;
+        z-index: 4;
+    }
+
+    #box_acara_sampul{
+        margin-top: 85%;
+        font-size: 14px;
+        color: rgb(109, 7, 26);
+        height: 64px;
+        border-radius: 21px;
+        display: block;
+        transform: translate3d(0px, 0px, 0px);
+        opacity: 1;
+        transition-property: transform, opacity;
+        transition-duration: 800ms;
+        transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+
+    }
+  
+  #track-time{
+    margin-left: -11px;
+    width: 70px;
+    height: 13px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    margin-top: -2px;
+  }
+  
+  #track-name {
+        color: #acaebd;
+        font-size: 10px;
+        margin: 0px 0 0px 0;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        margin-bottom: 0px;
+        width: 120px;
+        margin-left: -34px;
+        margin-top: -5px;
+        text-align: center;
+    }
+    
+    #album-name {
+        color: #54576f;
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: -5px;
+        width: 120px;
+        margin-left: -33px;
+        text-align: center;
+    }
+}
