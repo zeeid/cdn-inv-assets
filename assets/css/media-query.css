@@ -4,8 +4,8 @@
 */
 
 @media (min-width: 1281px) {
-
-    #box_acara_sampul{
+  
+  #box_acara_sampul{
         font-size: 14px;
         color: rgb(109, 7, 26);
         margin-top: 98%;
@@ -19,17 +19,17 @@
         transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
 
     }
-
+  
 }
 
 /* 
-##Device = Laptops, Desktops
-##Screen = B/w 1025px to 1280px
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-
-    #box_acara_sampul{
+  
+  #box_acara_sampul{
         font-size: 14px;
         color: rgb(109, 7, 26);
         margin-top: 98%;
@@ -43,12 +43,12 @@
         transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
 
     }
-
+  
 }
 
 /* 
-##Device = Tablets, Ipads (portrait)
-##Screen = B/w 768px to 1024px
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -67,40 +67,40 @@
         transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
 
     }
+  
+  
 
-
-
-
+  
 }
 
 /* 
-##Device = Tablets, Ipads (landscape)
-##Screen = B/w 768px to 1024px
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-
-
+  
+  
+  
 }
 
 /* 
-##Device = Low Resolution Tablets, Mobiles (Landscape)
-##Screen = B/w 481px to 767px
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-
-
-
+  
+  
+  
 }
 
 /* 
-##Device = Most of the Smartphones Mobiles (Portrait)
-##Screen = B/w 320px to 479px
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
 */
 
-  /* ANDROID GALAXSI S20 Linux */
+/* ANDROID GALAXSI S20 Linux */
 @media (min-width: 145px) and (max-width: 349px) {
     .panah_hide {
         right: 297px;
@@ -124,52 +124,52 @@
     }
 }
 @media (min-width: 350px) and (max-width: 370px) {
-.panah_hide {
-    right: 338px;
-}
-#box_acara_sampul {
-    margin-top: 400px;
-}
-.button_play {
-    margin-left: 135px;
-}
-#album-name {
-    margin-left: 0px;
-    /* text-align: center; */
-}
-#track-name {
-    margin-left: -35px;
-}
-#track-time {
-    margin-left: 0px;
-    width: 75px;
-    height: 14px;
-}
+  .panah_hide {
+      right: 338px;
+  }
+  #box_acara_sampul {
+      margin-top: 400px;
+  }
+  .button_play {
+      margin-left: 135px;
+  }
+  #album-name {
+      margin-left: 0px;
+      /* text-align: center; */
+  }
+  #track-name {
+      margin-left: -35px;
+  }
+  #track-time {
+      margin-left: 0px;
+      width: 75px;
+      height: 14px;
+  }
 }
 @media (min-width: 371px) and (max-width: 374px) {
-.panah_hide {
-    right: 355px;
-    height: 55px;
-}
-#app-cover{
+  .panah_hide {
+      right: 355px;
+      height: 55px;
+  }
+  #app-cover{
     left: 28px;
-}
-#box_acara_sampul {
-    margin-top: 400px;
-}
-.button_play {
-    margin-left: 135px;
-}
-#album-name {
-    margin-left: 0px;
-    text-align: center;
-}
-#track-name {
-    margin-left: 0px;
-}
-#track-time {
-    margin-left: 0px;
-}
+  }
+  #box_acara_sampul {
+      margin-top: 400px;
+  }
+  .button_play {
+      margin-left: 135px;
+  }
+  #album-name {
+      margin-left: 0px;
+      text-align: center;
+  }
+  #track-name {
+      margin-left: 0px;
+  }
+  #track-time {
+      margin-left: 0px;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 383px) {
@@ -222,17 +222,17 @@
         transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
 
     }
-
-#track-time{
+  
+  #track-time{
     margin-left: -11px;
     width: 70px;
     height: 13px;
     margin-bottom: 0px;
     overflow: hidden;
     margin-top: -2px;
-}
-
-#track-name {
+  }
+  
+  #track-name {
         color: #acaebd;
         font-size: 10px;
         margin: 0px 0 0px 0;
@@ -258,77 +258,77 @@
 }
 
 @media (min-width: 384px) and (max-width: 388px) {
-#player-track.active {
-    top: -50px;
-    height: 85px;
-}
-#album-art.active {
-    top: -10px;
-    box-shadow: 0 0 0 4px #fff7f7, 0 30px 50px -15px #afb7c1;
-}
-#s-area {
-    background-color: #ffe8ee;
-    cursor: pointer;
-    margin-top: 3px;
-}
+  #player-track.active {
+      top: -50px;
+      height: 85px;
+  }
+  #album-art.active {
+      top: -10px;
+      box-shadow: 0 0 0 4px #fff7f7, 0 30px 50px -15px #afb7c1;
+  }
+  #s-area {
+      background-color: #ffe8ee;
+      cursor: pointer;
+      margin-top: 3px;
+  }
 
-.button_play{
+  .button_play{
     margin-left: 135px;
-}
+  }
+  
+  #app-cover {
+      position: absolute;
+      top: 9%;
+      right: 0;
+      left: 28px;
+      width: 430px;
+      height: 87px;
+      margin: -4px auto;
+  }
+  
+  .panah_hide {
+      background-color: #bacfbbc4;
+      position: absolute;
+      top: 9%;
+      right: 355px;
+      left: 0;
+      height: 52px;
+      margin: -4px auto;
+      z-index: 4;
+  }
 
-#app-cover {
-    position: absolute;
-    top: 9%;
-    right: 0;
-    left: 28px;
-    width: 430px;
-    height: 87px;
-    margin: -4px auto;
-}
+  #box_acara_sampul{
+      margin-top: 50vh;
+      font-size: 14px;
+      color: rgb(109, 7, 26);
+      height: 64px;
+      border-radius: 21px;
+      display: block;
+      transform: translate3d(0px, 0px, 0px);
+      opacity: 1;
+      transition-property: transform, opacity;
+      transition-duration: 800ms;
+      transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
 
-.panah_hide {
-    background-color: #bacfbbc4;
-    position: absolute;
-    top: 9%;
-    right: 355px;
-    left: 0;
-    height: 52px;
-    margin: -4px auto;
-    z-index: 4;
-}
-
-#box_acara_sampul{
-    margin-top: 50vh;
-    font-size: 14px;
-    color: rgb(109, 7, 26);
-    height: 64px;
-    border-radius: 21px;
-    display: block;
-    transform: translate3d(0px, 0px, 0px);
-    opacity: 1;
-    transition-property: transform, opacity;
-    transition-duration: 800ms;
-    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
-
-}
-
-#track-time{
+  }
+  
+  #track-time{
     margin-left: 20px;
     width: 70px;
     height: 13px;
     margin-bottom: 0px;
     overflow: hidden;
     margin-top: -2px;
-}
-
-#track-name {
-    margin-left: 0px;
-}
-
-#album-name {
-    margin-left: 0px;
-    text-align: center;
-}
+  }
+  
+  #track-name {
+      margin-left: 0px;
+  }
+  
+  #album-name {
+      margin-left: 0px;
+      text-align: center;
+  }
 }
 
 @media (min-width: 390px) and (max-width: 400px) {
@@ -357,7 +357,7 @@
     }
 
     .button_play{
-    margin-left: 135px;
+      margin-left: 135px;
     }
     
     .panah_hide {
@@ -385,17 +385,17 @@
         transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
 
     }
-
-#track-time{
+  
+  #track-time{
     margin-left: 25px;
     width: 70px;
     height: 13px;
     margin-bottom: 0px;
     overflow: hidden;
     margin-top: -2px;
-}
-
-#track-name {
+  }
+  
+  #track-name {
         color: #acaebd;
         font-size: 10px;
         margin: 0px 0 0px 0;
@@ -419,165 +419,166 @@
         text-align: center;
     }
 }
-  /* GALAXSI NOTE 20/ULtra LInux */
+/* GALAXSI NOTE 20/ULtra LInux */
 @media (min-width: 412px) and (max-width: 412px) {
-.panah_hide {
-    right: 380px;
-}
-#app-cover{
+  .panah_hide {
+      right: 380px;
+  }
+  #app-cover{
     left: 31px;
-}
-#s-area{
+  }
+  #s-area{
     margin-top: 4px;
-}
-#box_acara_sampul {
-    margin-top: 460px;
-}
-.button_play {
-    margin-left: 135px;
-}
-#album-name {
-    margin-left: 0px;
-    text-align: center;
-}
-#track-name {
-    margin-left: 10px;
-}
-#track-time {
-    margin-left: 15px;
-    height: 13px;
-}
+  }
+  #box_acara_sampul {
+      margin-top: 460px;
+  }
+  .button_play {
+      margin-left: 135px;
+  }
+  #album-name {
+      margin-left: 0px;
+      text-align: center;
+  }
+  #track-name {
+      margin-left: 10px;
+  }
+  #track-time {
+      margin-left: 15px;
+      height: 13px;
+  }
 }
 
-  /* IPHONE 11 */
+/* IPHONE 11 */
 @media (min-width: 414px) and (max-width: 427px) {
-.panah_hide {
-    background-color: #bacfbbc4;
-    position: absolute;
-    top: 9%;
-    right: 385px;
-    left: 0;
-    height: 7%;
-    margin: -4px auto;
-    z-index: 4;
-}
-.icon_panah_hide {
-    font-size: 20px;
-    margin-top: 22px;
-}
-#app-cover {
-    position: absolute;
-    top: 9%;
-    right: 0;
-    left: 29px;
-    width: 430px;
-    height: 105px;
-    margin: -4px auto;
-}
-.button_play {
-    width: 6px;
-    height: 6px;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-left: 120px;
-}
-.button_play i {
-    display: block;
-    color: #d6dee7;
-    font-size: 30px;
-    text-align: center;
-    line-height: 1;
-}
-#album-name {
-    margin-left: 0px;
-}
-#track-name {
-    margin-left: 0px;
-}
-#track-time {
-    margin-left: 25px;
-}
-#album-art {
+  .panah_hide {
+      background-color: #bacfbbc4;
+      position: absolute;
+      top: 9%;
+      right: 385px;
+      left: 0;
+      height: 7%;
+      margin: -4px auto;
+      z-index: 4;
+  }
+  .icon_panah_hide {
+      font-size: 20px;
+      margin-top: 22px;
+  }
+  #app-cover {
+      position: absolute;
+      top: 9%;
+      right: 0;
+      left: 29px;
+      width: 430px;
+      height: 105px;
+      margin: -4px auto;
+  }
+  .button_play {
+      width: 6px;
+      height: 6px;
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-left: 120px;
+  }
+  .button_play i {
+      display: block;
+      color: #d6dee7;
+      font-size: 30px;
+      text-align: center;
+      line-height: 1;
+  }
+  #album-name {
+      margin-left: 0px;
+  }
+  #track-name {
+      margin-left: 0px;
+  }
+  #track-time {
+      margin-left: 25px;
+  }
+  #album-art {
     width : 55px;
     height : 55px;
-}
-#album-art.active{
+  }
+  #album-art.active{
     top: -20px;
-}
-#s-area{
+  }
+  #s-area{
     margin-left: 10px;
-}
+  }
 
-#box_acara_sampul{
+  #box_acara_sampul{
     margin-top: 460px;
+  }
+  
 }
-
-}
-  /* IPHONE 12 */
+/* IPHONE 12 */
 @media (min-width: 428px) and (max-width: 479px) {
-.panah_hide {
-    background-color: #bacfbbc4;
-    position: absolute;
-    top: 9%;
-    right: 396px;
-    left: 0;
-    height: 7%;
-    margin: -4px auto;
-    z-index: 4;
-}
-.icon_panah_hide {
-    font-size: 20px;
-    margin-top: 22px;
-}
-#app-cover {
-    position: absolute;
-    top: 9%;
-    right: 0;
-    left: 32px;
-    width: 430px;
-    height: 105px;
-    margin: -4px auto;
-}
-.button_play {
-    width: 6px;
-    height: 6px;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-left: 120px;
-}
-.button_play i {
-    display: block;
-    color: #d6dee7;
-    font-size: 30px;
-    text-align: center;
-    line-height: 1;
-}
-#album-name {
-    margin-left: 0px;
-}
-#track-name {
-    margin-left: 0px;
-}
-#track-time {
-    margin-left: 25px;
-}
-#album-art {
+  .panah_hide {
+      background-color: #bacfbbc4;
+      position: absolute;
+      top: 9%;
+      right: 396px;
+      left: 0;
+      height: 7%;
+      margin: -4px auto;
+      z-index: 4;
+  }
+  .icon_panah_hide {
+      font-size: 20px;
+      margin-top: 22px;
+  }
+  #app-cover {
+      position: absolute;
+      top: 9%;
+      right: 0;
+      left: 32px;
+      width: 430px;
+      height: 105px;
+      margin: -4px auto;
+  }
+  .button_play {
+      width: 6px;
+      height: 6px;
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-left: 120px;
+  }
+  .button_play i {
+      display: block;
+      color: #d6dee7;
+      font-size: 30px;
+      text-align: center;
+      line-height: 1;
+  }
+  #album-name {
+      margin-left: 0px;
+  }
+  #track-name {
+      margin-left: 0px;
+  }
+  #track-time {
+      margin-left: 25px;
+  }
+  #album-art {
     width : 55px;
     height : 55px;
-}
-#album-art.active{
+  }
+  #album-art.active{
     top: -20px;
-}
-#s-area{
+  }
+  #s-area{
     margin-left: 10px;
-}
+  }
 
-#box_acara_sampul{
+  #box_acara_sampul{
     margin-top: 460px;
+  }
+  
 }
 
-}
