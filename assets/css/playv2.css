@@ -300,10 +300,10 @@
   }
   
   .button_play:hover {
-      background-color: #d6d6de;
+      /* background-color: #d6d6de; */
   }
   
   .button_play:hover i {
-      color: #fff;
+      color: rgb(221, 172, 12);
   }
   

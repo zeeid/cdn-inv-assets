@@ -184,3 +184,69 @@
         text-align: center;
     }
 }
+
+@media (min-width: 414px) and (max-width: 896px) {
+  .panah_hide {
+      background-color: #bacfbbc4;
+      position: absolute;
+      top: 9%;
+      right: 375px;
+      left: 0;
+      height: 7%;
+      margin: -4px auto;
+      z-index: 4;
+  }
+  .icon_panah_hide {
+      font-size: 20px;
+      margin-top: 22px;
+  }
+  #app-cover {
+      position: absolute;
+      top: 9%;
+      right: 0;
+      left: 39px;
+      width: 430px;
+      height: 105px;
+      margin: -4px auto;
+  }
+  .button_play {
+      width: 6px;
+      height: 6px;
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-left: 120px;
+  }
+  .button_play i {
+      display: block;
+      color: #d6dee7;
+      font-size: 30px;
+      text-align: center;
+      line-height: 1;
+  }
+  #album-name {
+      margin-left: 0px;
+  }
+  #track-name {
+      margin-left: 0px;
+  }
+  #track-time {
+      margin-left: 25px;
+  }
+  #album-art {
+    width : 60px;
+    height : 60px;
+  }
+  #album-art.active{
+    top: -20px;
+  }
+  #s-area{
+    margin-left: 10px;
+  }
+
+  #box_acara_sampul{
+    margin-top: 460px;
+  }
+  
+}
